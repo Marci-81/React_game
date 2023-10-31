@@ -61,7 +61,7 @@ def game(dif):
                 while True:
                     time.sleep(.01)
                     if a:
-                        print("Miss*")
+                        print("Missed*")
                         hiba += 1
                         break
                     elif not a and time.time() - start > 2:
@@ -99,7 +99,7 @@ def game(dif):
                 while True:
                     time.sleep(.01)
                     if a:
-                        print("Miss*")
+                        print("Missed*")
                         hiba += 1
                         break
                     elif not a and time.time() - start > 2:
@@ -137,7 +137,7 @@ def game(dif):
                 while True:
                     time.sleep(.01)
                     if a:
-                        print("Miss*")
+                        print("Missed*")
                         hiba += 1
                         break
                     elif not a and time.time() - start > 1.5:
